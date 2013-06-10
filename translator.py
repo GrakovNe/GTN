@@ -3,7 +3,6 @@
 #Author: GrakovNe
 
 import urllib2
-import sys
 
 def translate(text='Example',TL='en',CL='auto'):
   query = 'http://translate.google.ru/translate_a/t?client=x&text=%s&sl=%s&tl=%s' % (text,CL,TL)
